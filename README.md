@@ -6,8 +6,8 @@ The instructions below will walk you through the process of ideation and plannin
 # To get started, run:
 
 ```console
-$ `bundle install`
-$ `rails db:migrate db:seed`
+$ bundle install
+$ rails db:migrate db:seed
 ```
 
 # Models
@@ -150,7 +150,7 @@ JSON data, along with the appropriate HTTP status code:
   "errors": ["validation errors"]
 }
 ```
-Author [https://github.com/GriffinsNgeno]
+
 
 
 
