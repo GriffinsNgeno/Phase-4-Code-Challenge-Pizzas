@@ -149,7 +149,7 @@ JSON data, along with the appropriate HTTP status code:
 {
   "errors": ["validation errors"]
 }
-
+```
 Author [`https://github.com/GriffinsNgeno`]
 
 
