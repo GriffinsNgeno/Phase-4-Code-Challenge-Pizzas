@@ -1,5 +1,6 @@
 class RestaurantsController < ApplicationController
-    rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
+    # wrap_parameters format []
+    
 
     # GET /restaurants/
     def index
@@ -9,7 +10,11 @@ class RestaurantsController < ApplicationController
     # GET /restaurants/:id
     def show
         restaurants = restaurant_params
+        if restaurants
         render json: restaurants
+        else
+            render_not_found_response
+        end
     end
 
     def destroy
