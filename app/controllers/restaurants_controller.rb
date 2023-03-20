@@ -17,6 +17,7 @@ class RestaurantsController < ApplicationController
         end
     end
 
+    # DELETE /restaurants/:id
     def destroy
         restaurant = restaurant_params
         restaurant.destroy
