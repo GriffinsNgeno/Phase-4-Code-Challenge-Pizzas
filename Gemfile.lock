@@ -152,6 +152,7 @@ GEM
     zeitwerk (2.6.7)
 
 PLATFORMS
+  bundle lock -unknown
   x86_64-darwin-19
 
 DEPENDENCIES
